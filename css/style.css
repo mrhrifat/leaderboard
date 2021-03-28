@@ -34,6 +34,7 @@
 	--white:#ffffff;
 	--rating:#A2A2A2;
 	--rating-star:#FFC014;
+	--box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
 	/*=========Font Family==========*/
 
     --Roboto:'Roboto', sans-serif;
@@ -69,6 +70,18 @@ h6{
 	font-size: 18px;
 	line-height: 27px;
 	color: var(--text-color);
+}
+.nav_fixed{
+	position: fixed;
+	width: 100%;
+	top: -1px;
+	left: 0;
+	right: 0;
+	background:var(--white);
+	box-shadow: var(--box-shadow);
+	z-index: 999;
+	transition: nav 1.5s ease-in;
+	padding: 0 1rem;
 }
 
 /*==========03) Global Section End==========*/
