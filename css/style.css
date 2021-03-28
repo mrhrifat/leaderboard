@@ -1,0 +1,167 @@
+/*
+    Author: Rakibul Hassan Rifat
+
+	-Graduated Computer Engineer from Chittagong Polyetechnic Institute
+*/
+
+/*
+	==========Index=========
+	01) Import Section
+	02)	Variable Section
+	03) Global CSS
+	04) Header Section
+	05) Top Player Section
+	06) Blog Section
+	07) Course Section
+	========================
+*/
+/*==========01) Import Section Start==========*/
+@import url('./font.css');
+/*==========01) Import Section End==========*/
+
+/*==========02) Variable Section Start==========*/
+:root{
+
+	/*=========Color=========*/
+
+	--bg-color: #E5E5E5;
+	--primary-color:#562EFF;
+	--course-title:#ED6B4F;
+	--icon-color:#FF4A60;
+	--hours-color:#FFE4E8;
+	--course-head:#1E1E1E;
+	--text-color:#000000;
+	--white:#ffffff;
+	--rating:#A2A2A2;
+	--rating-star:#FFC014;
+	/*=========Font Family==========*/
+
+    --Roboto:'Roboto', sans-serif;
+    --Poppins:'Poppins', sans-serif;
+    --OS:'Open Sans', sans-serif;
+
+}
+/*==========02) Variable Section End==========*/
+body{
+	background-color: var(--bg-color);
+}
+/*==========03) Global Section Start==========*/
+h4{
+	font-family: var(--Poppins);
+	font-size: 24px;
+	font-weight: 500;
+	color:var(--primary-color);
+	font-style: normal;
+	line-height: 36px;
+}
+h5{
+	font-family: var(--Poppins);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 34px;
+	color: var(--text-color);
+}
+h6{
+	font-family:  var(--Poppins);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	color: var(--text-color);
+}
+
+/*==========03) Global Section End==========*/
+
+
+/*==========04) Header Section Start==========*/
+header .bg-light{
+	background-color:var(--primary-color) !important;
+}
+header a span{
+	color:var(--white);
+	font-family: var(--Poppins);
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+}
+header .nav-item{
+	align-self: center;
+	padding: 0 10px;
+}
+header .nav-link{
+	color: var(--white) !important;
+	font-family: var(--Poppins);
+	font-size: 16px;
+	line-height: 24px;
+}
+/*==========04) Header Section End==========*/
+
+/*==========05) Top Player Section Start==========*/
+#player{
+	padding: 50px 0;
+}
+#player .container{
+	background-color: var(--white);
+	border-radius: 5px;
+}
+#player .player-list img{
+	width: 56px;
+	height: 56px;
+}
+#player .player-list h6{
+	margin: 25px 15px;
+}
+/*==========05) Top Player Section End==========*/
+
+/*==========06) Blog Section Start=========*/
+#blog{
+	padding-bottom: 50px;
+}
+#blog a{
+	color:var(--primary-color);
+}
+
+/*==========06) Blog Section Start=========*/
+
+/*==========06) Blog Section End=========*/
+
+/*==========07) Course Section Start==========*/
+#course .container{
+	background-color: var(--white);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 5px;
+}
+/*==========07) Course Section Start==========*/
+#course h5{
+	margin: 0;
+	color:var(--course-head);
+}
+#course small{
+	color: var(--course-title);
+}
+#course .card{
+	border:none
+}
+.card-footer {
+    border-top: none;
+	background: none;
+}
+#course .card-footer small:first-child{
+	color: var(--rating);
+}
+#course .card-footer svg{
+	color: var(--rating-star);
+}
+#course .card-footer .duration small,
+#course .card-footer .duration svg{
+	color:var(--icon-color);
+	font-size: 12px;
+}
+#course .card-footer .duration {
+    background: var(--hours-color);
+    padding: 0 10px;
+    border-radius: 15px;
+}
+/*==========07) Course Section End==========*/

@@ -1,0 +1,15 @@
+/*Roboto Regular*/
+@font-face{
+	font-family:Roboto;
+	src:url('../vendor/fonts/Roboto/Roboto-Regular.ttf');
+}
+/*Poppins Regular*/
+@font-face{
+	font-family: Poppins;
+	src:url('../vendor/fonts/Poppins/Poppins-Regular.ttf');
+}
+/*Open Sans Regular*/
+@font-face{
+	font-family: Open Sans;
+	src:url('../vendor/fonts/Open_Sans/OpenSans-Regular.ttf');
+}
